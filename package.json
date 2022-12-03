@@ -12,7 +12,8 @@
     "lint:check": "eslint src/",
     "lint:fix": "eslint --fix src/",
     "ts-node": "ts-node",
-    "build": "npm run clean && node node_modules/.bin/tsc"
+    "build": "npm run clean && node node_modules/.bin/tsc",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "MIT",
